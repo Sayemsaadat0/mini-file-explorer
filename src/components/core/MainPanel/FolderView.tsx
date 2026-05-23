@@ -133,7 +133,7 @@ export const FolderView = ({ folderNode }: { folderNode?: TreeNodeType }) => {
                   className="w-full rounded border border-zinc-300 bg-white px-1.5 py-0.5 text-center text-xs outline-none focus:border-zinc-400"
                 />
               ) : (
-                <span className="w-full border border-transparent px-1.5 py-0.5 text-center text-sm text-zinc-700">
+                <span className="w-full truncate border border-transparent px-1.5 py-0.5 text-center text-sm text-zinc-700">
                   {node.name}
                 </span>
               )}

@@ -108,41 +108,27 @@ export const FolderIcon = ({
 
 export const FileAddIcon = ({ className, ...props }: IconProps) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
+    viewBox="0 0 16 16"
     fill="none"
-    stroke="currentColor"
-    strokeWidth={1}
-    strokeLinecap="round"
-    strokeLinejoin="round"
+    xmlns="http://www.w3.org/2000/svg"
     className={className}
     aria-hidden
     {...props}
   >
-    <path d="M11.5 17.5a6 6 0 1 0 12 0 6 6 0 1 0 -12 0" />
-    <path d="m17.5 14.5 0 6" />
-    <path d="m20.5 17.5 -6 0" />
-    <path d="M10.5 23.5h-9a1 1 0 0 1 -1 -1v-21a1 1 0 0 1 1 -1h13.293a1 1 0 0 1 0.707 0.293L19.207 4.5a1 1 0 0 1 0.293 0.707V8.5" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M9 0H2V16H14V5L9 0ZM7 6V8H5V10H7V12H9V10H11V8H9V6H7Z" fill="currentColor"/>
   </svg>
 );
 
 export const FolderAddIcon = ({ className, ...props }: IconProps) => (
   <svg
+    viewBox="0 0 16 16"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
     fill="none"
-    stroke="currentColor"
-    strokeWidth={1}
-    strokeLinecap="round"
-    strokeLinejoin="round"
     className={className}
     aria-hidden
     {...props}
   >
-    <path d="M20.5 8.5v-4a1 1 0 0 0 -1 -1H9.618a1 1 0 0 1 -0.894 -0.553l-0.948 -1.894A1 1 0 0 0 6.882 0.5H1.5a1 1 0 0 0 -1 1v15a1 1 0 0 0 1 1h7" />
-    <path d="M11.5 17.5a6 6 0 1 0 12 0 6 6 0 1 0 -12 0" />
-    <path d="m17.5 14.5 0 6" />
-    <path d="m20.5 17.5 -6 0" />
+    <path fill="currentColor" fillRule="evenodd" d="M0 3.25A2.25 2.25 0 012.25 1h4.379a2.25 2.25 0 011.59.659L9.342 2.78c.14.141.331.22.53.22h3.879A2.25 2.25 0 0116 5.25v7.5A2.25 2.25 0 0113.75 15H2.25A2.25 2.25 0 010 12.75v-9.5zM7.75 6a.75.75 0 01.75.75V8h1.25a.75.75 0 010 1.5H8.5v1.25a.75.75 0 01-1.5 0V9.5H5.75a.75.75 0 010-1.5H7V6.75A.75.75 0 017.75 6z" clipRule="evenodd"/>
   </svg>
 );
 

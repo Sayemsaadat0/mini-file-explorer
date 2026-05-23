@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
+import Sidebar from "@/components/core/Sidebar/Sidebar";
 
 type PrimaryLayoutProps = {
   children: React.ReactNode;
